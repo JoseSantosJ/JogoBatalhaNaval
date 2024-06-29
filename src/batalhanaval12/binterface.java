@@ -16,7 +16,7 @@ import java.util.logging.Logger;
 import javax.swing.*;
 
 
-public class binterface  extends Batalhanaval12 {
+public class binterface  extends Main {
     
 
     
@@ -34,7 +34,7 @@ public class binterface  extends Batalhanaval12 {
     }
     
     
-    public void setaname() throws IOException{
+    public void setNomeJogador() throws IOException{
         int click = 0;
         if(click == 0){
             
@@ -93,7 +93,7 @@ public class binterface  extends Batalhanaval12 {
         
     }
     
-    public void iniciocampodebatalha(){
+    public void inicioCampoDeBatalha(){
         
         
         start.addActionListener(new java.awt.event.ActionListener() {
@@ -142,7 +142,7 @@ public class binterface  extends Batalhanaval12 {
     }
 
     
-    public void setcampoamigo() throws IOException{
+    public void setCampoAmigo() throws IOException{
         
         
         
@@ -453,7 +453,7 @@ public class binterface  extends Batalhanaval12 {
     }
     
     
-    public void setcampoinimigo(){
+    public void setCampoInimigo(){
        
         for (int i = 0; i < 10; i++) {
             for (int j = 0; j < 10; j++) {

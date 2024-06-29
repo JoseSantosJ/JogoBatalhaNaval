@@ -8,7 +8,7 @@ import javax.swing.*;
  *
  * @author tamar
  */
-public class Batalhanaval12 extends Jogador {
+public class Main extends Jogador {
     Inimigo inimigo = new Inimigo();
      Amigo amigo = new Amigo();
 
@@ -20,10 +20,10 @@ public class Batalhanaval12 extends Jogador {
         
     
             
-            c1.setaname();
-            c1.iniciocampodebatalha();
-            c1.setcampoinimigo();
-            c1.setcampoamigo();
+            c1.setNomeJogador();
+            c1.inicioCampoDeBatalha();  
+            c1.setCampoInimigo();
+            c1.setCampoAmigo();
    
 
     
