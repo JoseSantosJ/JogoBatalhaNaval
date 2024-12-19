@@ -18,7 +18,9 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 
-
+/**
+ * @author José Santos
+ */
 public abstract class Jogador {
     
     
