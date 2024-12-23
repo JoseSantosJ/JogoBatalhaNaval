@@ -26,7 +26,7 @@ public class binterface  extends Main {
     public binterface() {
         
         tela.setVisible(true);
-        tela.setSize(1370,720);
+        tela.setSize(1492,835);
         tela.setDefaultCloseOperation(3);
         tela.setLayout(null);
         
