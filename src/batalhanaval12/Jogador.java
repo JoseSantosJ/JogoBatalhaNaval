@@ -48,7 +48,7 @@ public abstract class Jogador {
     JLabel db1= new JLabel("posicione a sua fragata ");
     JLabel db2= new JLabel("posicione a sua fragata ");
     
-    JTextField nomej = new JTextField();
+    JTextField nomej = new JTextField("");
     JTextArea registros = new JTextArea();
     JScrollPane pregistro = new JScrollPane(registros);
      
